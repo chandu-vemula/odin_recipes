@@ -3,6 +3,7 @@ body{
   color: rgb(255, 218, 11);
   font-family: roboto, sans-serif;
 }
+
 a{
   color: gold;
   text-decoration: none;
@@ -21,16 +22,16 @@ img{
   object-position: center;
 }
 
-.odin-recipe-logo{
-  display: inline-block;
-  
-}
 .odin-recipe-logo-pic{
-  display: inline-block;
   width: 40px;
   height: 40px;
 }
-div{
+.odin-recipe-logo{
+  display: inline-block;
+  margin-right: 5px;
+}
+.container{
+  display:flex;
+  flex-direction: row;
   align-items: center;
-  vertical-align: middle;
 }
