@@ -25,6 +25,7 @@ img{
 .odin-recipe-logo-pic{
   width: 40px;
   height: 40px;
+  margin-bottom: 12px;
 }
 .odin-recipe-logo{
   display: inline-block;
