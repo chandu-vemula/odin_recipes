@@ -3,6 +3,7 @@ body{
   background-color: rgb(23, 28, 109);
   color: rgb(255, 218, 11);
   font-family: roboto, sans-serif;
+  margin: 0px;
 }
 
 p,  ol{
@@ -30,16 +31,43 @@ img{
 .odin-recipe-logo-pic{
   width: 40px;
   height: 40px;
-  margin-top: 15px;;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
-.odin-recipe-logo{
-  display: inline-block;
-  margin-right: 5px;
+
+.header{
+  background-color: rgb(11, 11, 57);
+  display: flex;
+  padding-left: 20px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 /0.2);
+  justify-content: space-between;
 }
-.container{
+
+.left-section{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.right-section{
   display:flex;
   flex-direction: row;
- 
+  align-items: center;
+  margin-right: 55px;
+  gap: 30px;
+}
+
+button{
+  border-radius: 10px;
+  padding: 6px 10px;
+  border: none;
+  background-color: rgb(191, 21, 21);
+  color: white;
+  font-weight: 700;
+}
+
+h3:hover, button:hover{
+  opacity: 0.5;
 }
 
 
